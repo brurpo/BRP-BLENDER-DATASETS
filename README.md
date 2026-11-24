@@ -9,7 +9,7 @@ Requires Blender 5.2 or newer.
 
 ## Install
 
-1. Download the latest `dataset_assets-<version>.zip` from this repository.
+1. Download `dataset_assets-<version>.zip` from the latest [release](https://github.com/brurpo/BRP-BLENDER-DATASETS/releases/latest).
 2. Drag it into Blender (or Edit > Preferences > Get Extensions > ⌄ > Install from Disk).
 3. Under Edit > Preferences > System > Network, turn on **Allow Online Access**. The add-on needs
    it to download assets.
