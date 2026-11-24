@@ -1,30 +1,22 @@
 # Dataset Assets for Blender
 
-A Blender extension repository with one add-on, **Dataset Assets**. It browses open 3D
-datasets (Poly Haven, Google Scanned Objects, NVIDIA SimReady, Smithsonian, Objaverse,
-Amazon Berkeley Objects, and more) plus Quixel Megascans on Fab, in its own window. It imports
-models straight into the open .blend with their textures packed.
+A Blender add-on that browses open 3D datasets (Poly Haven, Google Scanned Objects, NVIDIA
+SimReady, Smithsonian, Objaverse, Amazon Berkeley Objects, and more) plus Quixel Megascans on
+Fab, in its own window. It imports models straight into the open .blend with their textures
+packed.
 
 Requires Blender 5.2 or newer.
 
-## Install with automatic updates
+## Install
 
-1. In Blender, open **Edit > Preferences > Get Extensions**.
-2. Open the **Repositories** menu (top right) and click **+ > Add Remote Repository**.
-3. Paste this URL and turn on **Check for Updates on Startup**:
+1. Download the latest `dataset_assets-<version>.zip` from this repository.
+2. Drag it into Blender (or Edit > Preferences > Get Extensions > ⌄ > Install from Disk).
+3. Under Edit > Preferences > System > Network, turn on **Allow Online Access**. The add-on needs
+   it to download assets.
 
-   ```
-   https://raw.githubusercontent.com/brurpo/BRP-BLENDER-DATASETS/main/index.json
-   ```
-
-4. Search for **Dataset Assets** in Get Extensions and click **Install**.
-5. Under **System > Network**, turn on **Allow Online Access**.
-
-New versions then show up in Get Extensions with an **Update** button.
-
-## Install once, without updates
-
-Download `dataset_assets-<version>.zip` from this repository and drag it into Blender.
+That's it. The add-on keeps itself up to date: shortly after Blender starts it checks this
+repository and installs a newer version on its own. Turn this off with **Update automatically**
+in the add-on's preferences, which also has a **Check for Updates** button.
 
 ## Use
 
