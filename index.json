@@ -1,0 +1,30 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "dataset_assets",
+      "name": "Dataset Assets",
+      "tagline": "Browse open 3D datasets and import models into the .blend",
+      "version": "0.4.0",
+      "type": "add-on",
+      "maintainer": "brurp",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.2.0",
+      "permissions": {
+        "network": "Search datasets, download thumbnails and models",
+        "files": "Cache pages and thumbnails, temporary files while importing"
+      },
+      "tags": [
+        "Import-Export",
+        "3D View"
+      ],
+      "archive_url": "./dataset_assets-0.4.0.zip",
+      "archive_size": 51397,
+      "archive_hash": "sha256:df2da7fdf5f703e71f96754197a112dc422934ac543b2f1cce8a9380797decdb"
+    }
+  ]
+}
