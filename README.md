@@ -14,8 +14,8 @@ Requires Blender 5.2 or newer.
 3. Under Edit > Preferences > System > Network, turn on **Allow Online Access**. The add-on needs
    it to download assets.
 
-That's it. The add-on keeps itself up to date: shortly after Blender starts it checks this
-repository and installs a newer version on its own. Turn this off with **Update automatically**
+That's it. The add-on keeps itself up to date: shortly after Blender starts it checks the latest
+[release](https://github.com/brurpo/BRP-BLENDER-DATASETS/releases/latest) here and installs it if it is newer. Turn this off with **Update automatically**
 in the add-on's preferences, which also has a **Check for Updates** button.
 
 ## Use
